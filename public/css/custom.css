@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+#navbarblock  article{
+    display: flex;
+    background-color: orangered;
+    height: 70px;
+    width: 100%;
+}
+
+#logoBlock{
+    display: flex;
+    align-items: center;    
+    justify-content: flex-start;
+}
+
+/* #logoBlock a img {
+    display: inline;
+    align-items: center;
+} */
+
+#menuBlock {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menuBlock nav ul {
+    display: flex;
+    list-style: none;
+} 
+
+#menuBlock nav ul li {
+    color: orangered;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contactForm article {
+    width: 85%;
+    margin: 10px auto;
+    background-color: #fff;
+    display: flex;
+    height: 80vh;
+}
+
+#contactForm article form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contactForm article div {
+    flex-basis: 25%;
+    margin: 4px;
+    min-height: 100px;
+}
+
+#contactForm article div label { 
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#contactForm article div input {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#contactForm article div button {
+    background-color: orangered;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid orangered;
+    
+}
